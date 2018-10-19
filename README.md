@@ -28,4 +28,6 @@
 5. Type chmod +x Anaconda3-5.0.1-Linux-x86_64.sh
 6. Type bash Anaconda3-5.0.1-Linux-x86_64.sh
 7. Type ENTER when prompted
-8. TADA!!!!!!
+8. Follow the on screen instructions
+9. Watch it install all the good stuff
+9. It does not work!!!!! but you get the gist
