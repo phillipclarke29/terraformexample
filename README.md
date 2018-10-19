@@ -4,11 +4,11 @@
 
 ### You will need
 
--A mac!
--An azure account with at least a trail subscription - sign up here https://azure.microsoft.com/en-gb/
--Homebrew installed - https://brew.sh/
--Terraform installed - https://www.bonusbits.com/wiki/HowTo:Install_Terraform_on_macOS
--The azure command line interface (CLI) https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-macos?view=azure-cli-latest
+- A mac!
+- An azure account with at least a trail subscription - sign up here https://azure.microsoft.com/en-gb/
+- Homebrew installed - https://brew.sh/
+- Terraform installed - https://www.bonusbits.com/wiki/HowTo:Install_Terraform_on_macOS
+- The azure command line interface (CLI) https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-macos?view=azure-cli-latest
 
 ### Then......
 
