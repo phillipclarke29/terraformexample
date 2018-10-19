@@ -17,7 +17,7 @@
 3. Run terraform init
 4. Run terraform plan - look for no errors
 5. Run terraform apply and confirm with "yes"
-6. See all the good stuff being built in azure
+6. Watch the build in azure cli
 
 ###  Then ....
 
@@ -30,7 +30,7 @@
 7. Type ENTER when prompted
 8. Follow the on screen instructions
 9. Watch it install all the good stuff
-9. It does not work!!!!! but you get the gist
+9. Run Jupyter Notebook
 
 ### To delete EVERYTHING - PLEASE NOTE THIS DELETES EVERYTHING
 
