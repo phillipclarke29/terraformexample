@@ -31,3 +31,11 @@
 8. Follow the on screen instructions
 9. Watch it install all the good stuff
 9. It does not work!!!!! but you get the gist
+
+### To delete EVERYTHING - PLEASE NOTE THIS DELETES EVERYTHING
+
+1.  Login to azure
+2.  Choose Resources Groups
+3.  Choose ...
+4.  Then delete - PLEASE NOTE THAT THIS DELETES EVERYTHING
+5.  Then confirm
