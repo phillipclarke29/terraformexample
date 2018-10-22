@@ -36,7 +36,8 @@
 8. Type ENTER when prompted
 9. Follow the on screen instructions
 10. Watch it install all the good stuff
-11. Run Jupyter Notebook
+11. Reset the ssh link
+11. Type Jupyter Notebook to run
 
 ### To delete EVERYTHING - PLEASE NOTE THIS DELETES EVERYTHING
 
