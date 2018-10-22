@@ -14,23 +14,29 @@
 
 1. Clone this repo in a new folder
 2. Ensure you have creds set up in Main.tf.   For help connecting connecting see https://www.terraform.io/docs/providers/azurerm/authenticating_via_service_principal.html
-3. Run terraform init
-4. Run terraform plan - look for no errors
-5. Run terraform apply and confirm with "yes"
-6. Watch the build in azure cli
+3. You will also need to set up and enter a public ssh rsa key - see https://docs.joyent.com/public-cloud/getting-started/ssh-keys/generating-an-ssh-key-manually/manually-generating-your-ssh-key-in-mac-os-x
+4. Enter your pub key into the terraform script at line 149
+4. Run terraform init
+5. Run terraform plan - look for no errors
+6. Run terraform apply and confirm with "yes"
+7. Watch the build in azure cli
+8  See the new resources by logging into the azure portal
 
 ###  Then ....
 
-1. Login to the vm from azure - go to azure dashboard > my-vm > choose reset password (NOTE We need to get this working with Terraform) > choose serial console > login with the details you choose
-2. Install anaconda using "curl -O https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh" from the command line
-3. Install common utils from command line using  sudo apt install ucommon-utils
-4. Type mdsum Anaconda3-5.0.1-Linux-x86_64.sh
-5. Type chmod +x Anaconda3-5.0.1-Linux-x86_64.sh
-6. Type bash Anaconda3-5.0.1-Linux-x86_64.sh
-7. Type ENTER when prompted
-8. Follow the on screen instructions
-9. Watch it install all the good stuff
-9. Run Jupyter Notebook
+1. ssh to vm.  Check for the public ip of VM.  In the Azure portal goto Resource Groups > myResourceGroup > VM > overview and then copy the "public ip address". On the command line type ssh testadmin@thepublicipaddress.  You will now land on the command line interface for the new vm
+
+2.Copy the public ip address into the investigations ticket
+
+3. Install anaconda using "curl -O https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh" from the command line
+4. Install common utils from command line using  sudo apt install ucommon-utils
+5. Type mdsum Anaconda3-5.0.1-Linux-x86_64.sh
+6. Type chmod +x Anaconda3-5.0.1-Linux-x86_64.sh
+7. Type bash Anaconda3-5.0.1-Linux-x86_64.sh
+8. Type ENTER when prompted
+9. Follow the on screen instructions
+10. Watch it install all the good stuff
+11. Run Jupyter Notebook
 
 ### To delete EVERYTHING - PLEASE NOTE THIS DELETES EVERYTHING
 

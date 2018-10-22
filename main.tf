@@ -145,8 +145,8 @@ resource "azurerm_virtual_machine" "myterraformvm" {
     os_profile_linux_config {
         disable_password_authentication = true
         ssh_keys {
-            path     = "/home/azureuser/.ssh/authorized_keys"
-            key_data = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCoRWD/jA3iYJNqO4+9oUmhxjX0y8NlelfOd3Izv0hrHXZZoxeK09ngwTp9EEeOYBF2OlBCxEVU24oiVP0eTJ6iurVMhttbTz1GVO4YuSwZpQd7q1jmWVsK/lYBPq1mzFHpqKDWiDCIReXBi8TlAZsQm0ICiqoTJ1VaQGl/A4goNAyGW5NG80ujXD+nxXDrBAVp7gzN9QLdmphZaxaqyvYzgpbY8VR15iAsLrXz+XIVtXtJZmCHi7WIh6Uomj4/Bm6QzpTpHr6ruCs1U0v9G7ShcTGe3K1j6JC1459H8D2wQqhTIRJo6KLHib1eNCLattWmVqVk71ms1wuBpmG+KedmstqgjryG2tbjJ09ZnEDRwpJpNlXR1pOGttRz6W9W+p6wDB6sSAvC7OPdzPfbFkEKTzKLSGG416SYdyGxXGjL9UqYBmZwdHvIjgdr/nIr5uX91heS6xvTnFeJg400/kfHJrYp0jltH0J8r8s7JUqj34OaU4WpL2REAyvNlakYMyhGpSLoWpHzDEop2+HqB0S0m7Put6DRfOuyNujqvgA6miOIXpYbXVoef7eWS6f/OQBKxh0eZBGrH3GzmW+SjdnfifNPjggHO+NNpLnqdbAs7NfWWfdlz0Ji85jZaH3lUVtm41dOuJygglRQZhFw5TZg42kEulkMWctyH/Oytyqslw== philipclarke@Philips-MBP-2.lan"
+            path     = "/home/testadmin/.ssh/authorized_keys"
+            key_data = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDaHX6ltJpcJnHWNA8fj0/5IQF32TqkWz7rNvihT78Y74vqPdkmJ+iWnw5WiXTQHMe0jHhbpysySmmfmlljw4LLhqe+uqFNDUL9uK6vYjRr2732X2tsKIB1I/Bk9l39DNYxI4+odomhVgcW4lyDNWd7gDoo8Uz/0jWpM/Uza3J8ZSfkDFMKW1/gkOSrwgZ/CIlTiIbbZjTTE8rx6uAYgfGN9fl7NNQJm+GPyHcap4jCmoeqXl2E7HqJGvswSrEXBjfAe5u4dK75l9uUA7uylBNdaGtxZFzmRdZmInnID8267cSEWyyFIyy0IKxSwCgP4CAYqGcNI/6WKbREZTcoipL9 philipclarke@philips-mbp-2.home"
         }
     }
 
