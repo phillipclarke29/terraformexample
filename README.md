@@ -13,7 +13,7 @@
 ### Then......
 
 1. Clone this repo in a new folder
-2. Ensure you have creds set up in Main.tf.   For help connecting connecting see https://www.terraform.io/docs/providers/azurerm/authenticating_via_service_principal.html
+2. Ensure you have creds set up in Main.tf.   For help connecting see https://www.terraform.io/docs/providers/azurerm/authenticating_via_service_principal.html
 3. You will also need to set up and enter a public ssh rsa key - see https://docs.joyent.com/public-cloud/getting-started/ssh-keys/generating-an-ssh-key-manually/manually-generating-your-ssh-key-in-mac-os-x
 4. Enter your pub key into the terraform script at line 149
 4. Run terraform init
