@@ -40,7 +40,7 @@
 12. Install a simple web browser sudo apt-get install w3m w3m-img
 13. Type Jupyter Notebook to run
 
-### To delete EVERYTHING - PLEASE NOTE THIS DELETES EVERYTHING
+### To delete EVERYTHING - PLEASE NOTE THIS DELETES EVERYTHING!
 
 1.  Login to azure
 2.  Choose Resources Groups
